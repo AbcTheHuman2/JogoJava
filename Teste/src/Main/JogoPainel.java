@@ -43,7 +43,7 @@ public class JogoPainel extends JPanel implements Runnable, KeyListener {
 				WIDTH, HEIGHT,
 				BufferedImage.TYPE_INT_RGB
 				);
-		g = (Graphics2D) g;
+		g = (Graphics2D) imagem.getGraphics();
 		
 		rodando = true;
 		
@@ -90,7 +90,7 @@ public class JogoPainel extends JPanel implements Runnable, KeyListener {
 	
 	private void drawToScreen() {
 		Graphics g2 = getGraphics();
-		g2.drawImage(imagem, 0, 0, null);
+		g2.drawImage(imagem, 0, 0, WIDTH * SCALE, HEIGHT * SCALE, null);
 		g2.dispose();
 		
 	}

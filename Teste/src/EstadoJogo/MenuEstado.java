@@ -31,7 +31,7 @@ public class MenuEstado extends JogoEstado {
 		
 		try {
 			
-			f = new Fundo("/Fundos/fundo_teste.gif", 1);
+			f = new Fundo("/Fundos/aaa.gif", 1);
 			f.setVector(-0.1, 0);
 			
 			corTitulo = new Color(128, 0, 0);

@@ -48,6 +48,7 @@ public class Fundo {
 	}
 	
 	public void draw(Graphics2D g) {
+		
 		g.drawImage(imagem, (int)x, (int)y, null);
 		if (x < 0) {
 			g.drawImage(imagem, (int)x + JogoPainel.WIDTH,
