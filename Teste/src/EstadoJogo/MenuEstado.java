@@ -64,7 +64,7 @@ public class MenuEstado extends JogoEstado {
 		//título
 		g.setColor(corTitulo);
 		g.setFont(fonteTitulo);
-		g.drawString("Teste", 80, 70);
+		g.drawString("Teste", 130, 70);
 		
 		//opções do menu
 		g.setFont(fonte);
@@ -74,7 +74,7 @@ public class MenuEstado extends JogoEstado {
 			} else {
 				g.setColor(Color.RED);
 			}
-			g.drawString(opcoes[i], 145, 140 + i * 15);
+			g.drawString(opcoes[i], 135, 140 + i * 15);
 		}
 	}
 	

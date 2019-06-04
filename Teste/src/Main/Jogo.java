@@ -11,6 +11,7 @@ public class Jogo {
 		tela.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		tela.setResizable(false);
 		tela.pack();
+		tela.setLocationRelativeTo(null);
 		tela.setVisible(true);
 	}
 }
