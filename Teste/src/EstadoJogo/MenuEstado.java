@@ -70,9 +70,9 @@ public class MenuEstado extends JogoEstado {
 		g.setFont(fonte);
 		for (int i = 0; i < opcoes.length; i++) {
 			if (i == escolhaAtual) {
-				g.setColor(Color.BLACK);
-			} else {
 				g.setColor(Color.RED);
+			} else {
+				g.setColor(Color.BLACK);
 			}
 			g.drawString(opcoes[i], 135, 140 + i * 15);
 		}
